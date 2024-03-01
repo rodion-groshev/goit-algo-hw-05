@@ -11,7 +11,7 @@ def read_file(file_name):
 
 
 if __name__ == '__main__':
-    text = ["стаття 1.txt", "стаття 2.txt"]
+    text = ["text_1.txt", "text_2.txt"]
     pattern = ["алгоритм", "неіснуючий"]
     print(f"| {'Algorithm':<30} | {'KMP':<30} | {'Boyer Moore':<30} | {'Rabin karp':<30} |")
     print(f"| {'-' * 30} | {'-' * 30} | {'-' * 30} | {'-' * 30} |")
